@@ -58,7 +58,7 @@
 <p align="center">
   <a href="https://github.com/saqcode-dev">
     <img src="https://avatars.githubusercontent.com/saqcode-dev?v=4" width="100" height="100" style="border-radius:50%;" alt="saqcode-dev"/>
-  </a><p>saqcode-dev</p>
+  </span><p>saqcode-dev</span>
   <a href="https://github.com/alkwaty">
     <img src="https://avatars.githubusercontent.com/alkwaty?v=4" width="100" height="100" style="border-radius:50%;" alt="alkwaty"/>
   </a>
