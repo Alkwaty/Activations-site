@@ -1,0 +1,423 @@
+:root{
+--Mcolor:#8333ba;
+--headerColor: #ffffffa9;
+--hide-list:#fffffffa;
+--tw-ring-offset-shadow: 0 0 rgba(0, 0, 0, 0);
+    --tw-ring-shadow: 0 0 rgba(0, 0, 0, 0);
+    --PRcolor: dimgray;
+}
+
+
+body{
+   margin: 0;
+   margin-top: 150px;
+    font-family: 'saqfont';
+   
+}
+
+@font-face {
+    font-family: 'saqfont';
+    src: url("src/font/fontstyle1.woff2");
+}
+@font-face {
+    font-family: 'saqfont3';
+    src: url("src/font/font.otf");
+}
+@font-face {
+    font-family: 'saqfont2';
+    src: url("src/font/COMICBD.TTF");
+}
+
+
+header {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    z-index: 1000;
+}
+
+
+header .contacHeder{
+    position: fixed;
+    top: 9px;
+    background-color:var(--headerColor);
+    backdrop-filter: blur(10px);
+    width:  88%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+   box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    margin-top: 10px;
+    transform: scale(1.0);
+    transition: transform 0.5s ease;
+}
+.logo:hover{
+    transform: scale(1.05);
+    transition: transform 0.5s ease;
+}
+header .menu{
+    display: flex;
+    flex-direction: row-reverse;
+    color: var(--PRcolor);
+    gap: 40px;
+}
+
+header ul ul{
+     text-decoration: none;
+     margin-top: 2px;
+    padding: 24px 0.5rem 1.5rem 2rem;
+    position: absolute;
+    --tw-shadow: 5px 10px 30px #2B2D340D;
+   border-radius: 0.5rem ;
+    background-color: var(--hide-list);
+    box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.1) , 5px 10px 30px #2B2D340D;
+}
+
+
+.line-list{
+    margin: 0 10px;
+    width: 3px;
+    height: 20px;
+    background-color: var(--Mcolor);
+    z-index: 10;
+}
+
+
+header ul ul a  {
+    color: var(--PRcolor);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 1.5rem ;
+    padding-bottom: 0.5em;
+} 
+header a:hover{
+    color: var(--Mcolor);
+}
+header a{
+    color: var(--PRcolor);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main-menu11 svg{
+    margin-top: 1px;
+    transform: rotateX(0);
+    transition: transform 0.3s ease-in-out;
+}
+.main-menu11:hover svg {
+    transform: rotateX(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.sub-menu11{
+    direction: rtl;
+    display: flex;
+    display: none;
+    position: absolute;
+}
+.main-menu11 > li {
+    direction: rtl;
+}
+/* إضهار اللسته الفرعية */
+.main-menu11 > li:hover > .sub-menu11 {
+  display: block;
+  z-index: 1000;
+}
+
+/*--- الايقونات الهيدر ---*/
+.icons{
+    gap: 20px;
+}
+.icons button{
+    background: none;
+    border: none;
+    margin-top: 10px;
+     transition: transform 2s ease;
+}
+.icon , path{
+    fill: var(--PRcolor);
+    transform: scale(1);
+    transition: transform 0.5s ease;
+
+}
+button:hover path{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+    fill: var(--Mcolor);
+}
+button:hover .icon{
+    fill: var(--Mcolor);
+    
+}
+
+
+/*----------------main--------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+
+/*العبارة الترحيبية    */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+/* عنوان الموقع المطور */
+main h1{
+    text-align: center;
+    color: var(--Mcolor);
+}
+main h1 span{
+    color: rgb(247, 136, 0);
+     font-family: Zyana;
+    
+}
+/* صندوق الميزات كامل */
+.mayzats{
+    display: flex;
+    direction: rtl;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    
+    
+    
+}
+.mayzats::-webkit-scrollbar{
+    display: none;
+}
+/*صندوق الايقونة مع نص الميزة */
+.mayzat{
+    display: flex;
+    font-weight: bold;
+    gap: 3px;
+    transform: scale(1.0);
+    transition: transform 0.09s ease;
+    white-space: nowrap;
+}
+/* أيقونة الميزة */
+.mayzat img{
+    width: 30px;
+}
+.mayzat:hover{
+    transform: scale(1.03);
+    transition: transform 0.09s ease;
+    
+}
+/*إخفاء ايقونه السكرول الجانبي*/
+.wellcome svg{
+        display: none;
+}
+/*---تنسيق السكرول المخفي------*/
+
+@media (max-width:1135.200px) {
+    .wellcome svg{
+        display: block;
+        width: 40px;
+        color: var(--Mcolor);
+    }
+    .wellcome svg:hover{
+         color: rgb(247, 136, 0);
+    }
+    .wellcome{
+        display: flex;
+         width: 95%;
+         margin:  0 auto;
+        gap: 20px;    
+    }
+    .mayzat img{
+        width: 25px;
+    }  
+
+    .mayzats{
+        width: 99%;
+        justify-content: flex-start;
+        font-size: 13px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scrollbar-width: none;
+        -ms-overflow-style: none;  
+    } 
+}
+
+/* نهاية العبارة الترحيبية    */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+
+
+
+
+/*الخط المتحرك  */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+/* صندوق الذي يحوي الخط مع الدائرة */
+main .line{
+        align-items: center;
+        margin: 0 auto;
+        WIDTH: 200PX;
+        height: 10px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+}
+/* الخط المستقيم */
+.after{
+    position: absolute;
+    width: 130px;
+    border-radius: 20px;
+    background-color: var(--Mcolor);
+    height: 3px;
+    
+}
+/* الدائرة الذي فوق المستقيم */
+.circal{
+    box-shadow: 0px 0px 1px 1px #f8f8f8;
+    width: 10px;
+    height: 10px;
+    background-color: var(--Mcolor);
+    border-radius: 50%;
+    margin-left: 0px;
+    animation: move 20s ease infinite alternate forwards;
+}
+@keyframes move {
+  0%   {margin-left: 120px;}
+  25%  {margin-left: -120px;}
+  50%  {margin-left: 120px;}
+  75%  {margin-left: -120px;}
+  100% {margin-left: 120px;}
+}
+
+/*نهاية الخط المتحرك  */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+
+
+.butt-like{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+/* تنسيق الهاتف */
+@media (max-width:680px) {
+ body{
+    font-size: small;
+ }
+ header .menu , path{
+    display: none;
+ }
+ 
+    
+}
+/* neww */
+.menu-product{
+    direction: rtl;
+    width: 95%;
+    margin-top: 90px;
+}
+
+/*المنتجات */
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+/* تنسيق كلمة المفتاحية لنوع المنتجات */
+h2{
+    text-align: center;
+    color: var(--Mcolor);
+    font-size: 30px;
+      font-family: 'saqfont';
+    font-weight: bolder;
+    margin-top: 100px;
+}
+
+/* صف صناديق المنتجاتت */
+.flex-prud{
+display: flex;
+gap: 25px;
+margin-top: 40px;
+
+}
+.product-card{
+    width: 249px;height: 510px;
+    padding: 20px;
+   --tw-shadow: 0px 3px 16px rgba(47, 83, 109, 0.12157);
+    --tw-shadow-colored: 0px 3px 16px var(--tw-shadow-color);
+    box-shadow: 0 0 rgba(0, 0, 0, 0), 0 0 rgba(0, 0, 0, 0), 0px 3px 16px rgba(47, 83, 109, 0.12157);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-ring-shadow, 0 0 rgba(0, 0, 0, 0)), var(--tw-shadow);
+    border-radius: 1rem;
+    transform: translateY(0px);
+    transition: transform 0.2s ease;
+}
+.product-card:hover{
+    transform: translateY(-8px);
+    transition: transform 0.2s ease;
+}
+.product-card img{
+    width: 16.9rem;
+    border-radius: 1rem;
+    transform: scale(1.0) translateY(0px);
+    transition: all 0.08s ease;
+}
+.product-card:hover img{
+    transform: scale(1.04) translateY(-4px);
+    transition: all 0.08s ease;
+    
+
+}
+
+.saQ path{
+    display: block;
+    fill: red;
+ }
+ .butt-like svg:hover{
+   transform: scale(1.2);
+   transition: transform 0.2s ease;
+ }
+ .butt-like svg{
+    margin-top: 10px;
+       transform: scale(1.0);
+   transition: transform 0.2s ease;
+  
+ }
+
+.product-card h3{
+    font-size: 20px;
+}
+.product-card .title p{
+color: var(--PRcolor);
+margin-top: -10px;
+}
+.product-card button{
+    margin-top: 10px;
+    width: 80%;
+    height: 40px;
+    border-radius: 0.5rem;
+    border: 1px solid var(--headerColor);
+    background: var(--Mcolor);
+    color: #fff;
+    font-family: 'saQfont';
+    font-size: 19px;
+    transform: scale(1.0) translateY(0px);
+    transition: transform 0.2s ease;
+  
+}
+.product-card button:hover{
+    transform: scale(1.02) translateY(-3px);
+    transition: transform 0.2s ease;
+}
+
