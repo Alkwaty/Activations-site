@@ -62,7 +62,6 @@
       <a href="https://github.com/saqcode-dev">
         <img src="https://avatars.githubusercontent.com/saqcode-dev?v=4" width="100" height="100">
         <p><b>saqcode-dev</b></p>
-      </a>
       <a href="https://github.com/alkwaty">
         <img src="https://avatars.githubusercontent.com/alkwaty?v=4" width="100" height="100">
         <p><b>alkwaty</b></p>
