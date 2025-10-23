@@ -55,30 +55,35 @@
 ## 👥 المساهمون (Contributors)
 
 شكرًا لكل من ساهم في بناء هذا المشروع ❤️  
-  
-<!-- Contributors - Static HTML -->
-<section id="contributors" style="font-family:Arial, sans-serif; padding:20px;">
-  <h2>👥 المساهمون</h2>
-  <p>شكرًا لكل من ساهم في بناء هذا المشروع ❤️</p>
 
-  <div style="display:flex; flex-wrap:wrap; gap:16px;">
-    <!-- Contributor 1 -->
-    <div style="text-align:center; width:120px;">
-      <a href="https://github.com/USERNAME1" target="_blank" rel="noopener">
-        <img src="https://github.com/USERNAME1.png" alt="USERNAME1" style="width:96px; height:96px; border-radius:12px; object-fit:cover; box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-        <div style="margin-top:6px; font-weight:600;">USERNAME1</div>
-        <div style="font-size:12px; color:#666;">Code</div>
-      </a>
-    </div>
-    <!-- Contributor 2 -->
-    <div style="text-align:center; width:120px;">
-      <a href="https://github.com/USERNAME2" target="_blank" rel="noopener">
-        <img src="https://github.com/USERNAME2.png" alt="USERNAME2" style="width:96px; height:96px; border-radius:12px; object-fit:cover; box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
-        <div style="margin-top:6px; font-weight:600;">USERNAME2</div>
-        <div style="font-size:12px; color:#666;">Design</div>
+  <!-- 👥 قسم المساهمين -->
+<section id="contributors" style="font-family: Arial, sans-serif; text-align: center; padding: 30px;">
+
+  <h2 style="font-size: 28px; margin-bottom: 10px;">👥 المساهمون</h2>
+  <p style="font-size: 16px; color: #555;">شكرًا لكل من ساهم في بناء هذا المشروع ❤️</p>
+
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-top: 25px;">
+
+    <!-- 🧑‍💻 المساهم 1 -->
+    <div style="text-align: center;">
+      <a href="https://github.com/USERNAME1" target="_blank" style="text-decoration: none; color: inherit;">
+        <img src="https://github.com/USERNAME1.png" alt="USERNAME1" 
+             style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
+        <div style="margin-top: 10px; font-weight: bold;">USERNAME1</div>
+        <div style="font-size: 13px; color: #777;">Developer</div>
       </a>
     </div>
 
-    <!-- اضف المزيد بنفس النمط -->
+    <!-- 🧑‍🎨 المساهم 2 -->
+    <div style="text-align: center;">
+      <a href="https://github.com/USERNAME2" target="_blank" style="text-decoration: none; color: inherit;">
+        <img src="https://github.com/USERNAME2.png" alt="USERNAME2" 
+             style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
+        <div style="margin-top: 10px; font-weight: bold;">USERNAME2</div>
+        <div style="font-size: 13px; color: #777;">Designer</div>
+      </a>
+    </div>
+
   </div>
 </section>
+
