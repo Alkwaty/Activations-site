@@ -56,23 +56,22 @@
 
 شكرًا لكل من ساهم في بناء هذا المشروع ❤️  
   
-  <center>
-<table style="float:right;">
+
+<table style="width: 100%; text-align: center;">
   <tr>
     <td style=" text-align: center" >
       <a href="https://github.com/saqcode-dev">
-        <img src="https://github.com/saqcode-dev.png" width="80px;" alt="Contributor" style="border-radius: 50%;"/>
+        <img src="https://github.com/saqcode-dev.png" width="80px;" alt="Contributor"/>
         <br />
         <sub><b>saqcode-dev</b></sub>
       </a>
     </td>
-    <td style="border-radius: 50%;">
-      <a href="https://github.com/alkwaty">
+    <td align="center">
+      <a href="https://github.com/ANOTHER-USER">
         <img src="https://github.com/ANOTHER-USER.png" width="80px;" alt="Contributor"/>
         <br />
-        <sub><b>alkwaty</b></sub>
+        <sub><b>ANOTHER-USER</b></sub>
       </a>
     </td>
   </tr>
 </table>
-</center>
