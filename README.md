@@ -56,7 +56,7 @@
 
 شكرًا لكل من ساهم في بناء هذا المشروع ❤️  
 
-<table>
+<table style="float:right;">
   <tr>
     <td align="center">
       <a href="https://github.com/saqcode-dev">
