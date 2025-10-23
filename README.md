@@ -55,21 +55,21 @@
 ## 👥 المساهمون (Contributors)
 
 شكرًا لكل من ساهم في بناء هذا المشروع ❤️  
-
+  
 <table style="float:right;">
   <tr>
-    <td align="center">
+    <td style=" text-align: center" >
       <a href="https://github.com/saqcode-dev">
-        <img src="https://github.com/saqcode-dev.png" width="80px;" alt="Contributor"/>
+        <img src="https://github.com/saqcode-dev.png" width="80px;" alt="Contributor" style="border-radius: 50%;"/>
         <br />
-        <sub><b>USERNAME</b></sub>
+        <sub><b>saqcode-dev</b></sub>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/ANOTHER-USER">
-        <img src="https://github.com/ANOTHER-USER.png" width="80px;" alt="Contributor"/>
+      <a href="https://github.com/alkwaty">
+        <img src="https://github.com/ANOTHER-USER.png" width="80px;" alt="Contributor" style="border-radius: 50%;"/>
         <br />
-        <sub><b>ANOTHER-USER</b></sub>
+        <sub><b>alkwaty</b></sub>
       </a>
     </td>
   </tr>
