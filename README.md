@@ -56,7 +56,11 @@
 
 شكرًا لكل من ساهم في بناء هذا المشروع ❤️  
   
-
+<style>
+	table{
+		margin: 0 auto;
+	}
+</style>
 <table style="width: 100%; text-align: center;">
   <tr>
     <td style=" text-align: center" >
