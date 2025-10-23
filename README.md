@@ -52,28 +52,25 @@
 **تحياتي، ابن اليمن.**
 
 
-## 👥 المساهمون (Contributors)
-
-## 👥 المساهمون (Contributors)
-
-شكرًا لكل من ساهم في بناء هذا المشروع ❤️  
+## 👥 المطورون (Developers): 
 
 <table  align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/saqcode-dev">
-        <img src="https://github.com/saqcode-dev.png" width="100px;" alt="Contributor"/>
+        <img src="https://github.com/saqcode-dev.png" width="120px;" alt="Contributor"/>
         <br />
         <sub><b>saqcode-dev</b></sub>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/alkwaty">
-        <img src="https://github.com/alkwaty.png" width="100px;" alt="Contributor"/>
+        <img src="https://github.com/alkwaty.png" width="120px;" alt="Contributor"/>
         <br />
         <sub><b>alkwaty</b></sub>
       </a>
     </td>
   </tr>
 </table>
+##
 
