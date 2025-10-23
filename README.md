@@ -56,22 +56,29 @@
 
 شكرًا لكل من ساهم في بناء هذا المشروع ❤️  
   
+<!-- Contributors - Static HTML -->
+<section id="contributors" style="font-family:Arial, sans-serif; padding:20px;">
+  <h2>👥 المساهمون</h2>
+  <p>شكرًا لكل من ساهم في بناء هذا المشروع ❤️</p>
 
-<table style="margin: 0 auto; text-align: center;">
-  <tr>
-    <td style=" text-align: center" >
-      <a href="https://github.com/saqcode-dev">
-        <img src="https://github.com/saqcode-dev.png" width="80px;" alt="Contributor"/>
-        <br />
-        <sub><b>saqcode-dev</b></sub>
+  <div style="display:flex; flex-wrap:wrap; gap:16px;">
+    <!-- Contributor 1 -->
+    <div style="text-align:center; width:120px;">
+      <a href="https://github.com/USERNAME1" target="_blank" rel="noopener">
+        <img src="https://github.com/USERNAME1.png" alt="USERNAME1" style="width:96px; height:96px; border-radius:12px; object-fit:cover; box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+        <div style="margin-top:6px; font-weight:600;">USERNAME1</div>
+        <div style="font-size:12px; color:#666;">Code</div>
       </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/alkwaty">
-        <img src="https://github.com/alkwaty.png" width="80px;" alt="Contributor"/>
-        <br />
-        <sub><b>alkwaty</b></sub>
+    </div>
+    <!-- Contributor 2 -->
+    <div style="text-align:center; width:120px;">
+      <a href="https://github.com/USERNAME2" target="_blank" rel="noopener">
+        <img src="https://github.com/USERNAME2.png" alt="USERNAME2" style="width:96px; height:96px; border-radius:12px; object-fit:cover; box-shadow:0 2px 6px rgba(0,0,0,0.12);" />
+        <div style="margin-top:6px; font-weight:600;">USERNAME2</div>
+        <div style="font-size:12px; color:#666;">Design</div>
       </a>
-    </td>
-  </tr>
-</table>
+    </div>
+
+    <!-- اضف المزيد بنفس النمط -->
+  </div>
+</section>
