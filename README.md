@@ -60,16 +60,16 @@
   <h3>👥 المساهمون في المشروع</h3>
     <div style="text-align: center;">
       <a href="https://github.com/saqcode-dev">
-        <img src="https://avatars.githubusercontent.com/saqcode-dev?v=4" width="100" height="100" style="border-radius: 50%; display: block; margin: 0 auto;">
+        <img src="https://avatars.githubusercontent.com/saqcode-dev?v=4" width="100" height="100">
         <p><b>saqcode-dev</b></p>
       </a>
       <a href="https://github.com/alkwaty">
-        <img src="https://avatars.githubusercontent.com/alkwaty?v=4" width="100" height="100" style="border-radius: 50%; display: block; margin: 0 auto;">
+        <img src="https://avatars.githubusercontent.com/alkwaty?v=4" width="100" height="100">
         <p><b>alkwaty</b></p>
       </a>
     </div>
 
-  <p style="margin-top: 20px; font-size: 16px;">شكرًا لكل من ساهم في بناء هذا المشروع ❤️</p>
+  <p style="margin-top: 900px; font-size: 16px;">شكرًا لكل من ساهم في بناء هذا المشروع ❤️</p>
 
 </div>
 
