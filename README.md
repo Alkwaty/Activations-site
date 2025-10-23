@@ -54,34 +54,17 @@
 
 ## 👥 المساهمون (Contributors)
 
-شكرًا لكل من ساهم في بناء هذا المشروع ❤️  
+شكرًا لكل من ساهم في بناء هذا المشروع ❤️ 
+## 👥 المساهمون
 
-  <!-- 👥 قسم المساهمين -->
-<section id="contributors" style="font-family: Arial, sans-serif; text-align: center; padding: 30px;">
-
-  <h2 style="font-size: 28px; margin-bottom: 10px;">👥 المساهمون</h2>
-  <p style="font-size: 16px; color: #555;">شكرًا لكل من ساهم في بناء هذا المشروع ❤️</p>
-
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-top: 25px;">
-  <!-- 🧑‍💻 المساهم 1 -->
-    <div style="text-align: center;">
-      <a href="https://github.com/USERNAME1" target="_blank" style="text-decoration: none; color: inherit;">
-        <img src="https://github.com/USERNAME1.png" alt="USERNAME1" 
-             style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
-        <div style="margin-top: 10px; font-weight: bold;">USERNAME1</div>
-        <div style="font-size: 13px; color: #777;">Developer</div>
-      </a>
-    </div>
-    <!-- 🧑‍🎨 المساهم 2 -->
-    <div style="text-align: center;">
-      <a href="https://github.com/USERNAME2" target="_blank" style="text-decoration: none; color: inherit;">
-        <img src="https://github.com/USERNAME2.png" alt="USERNAME2" 
-             style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 10px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
-        <div style="margin-top: 10px; font-weight: bold;">USERNAME2</div>
-        <div style="font-size: 13px; color: #777;">Designer</div>
-      </a>
-    </div>
-
-  </div>
-</section>
-
+<p align="center">
+  <a href="https://github.com/USERNAME1">
+    <img src="https://avatars.githubusercontent.com/USERNAME1?v=4" width="100" height="100" style="border-radius:50%;" alt="USERNAME1"/>
+  </a>
+  <a href="https://github.com/USERNAME2">
+    <img src="https://avatars.githubusercontent.com/USERNAME2?v=4" width="100" height="100" style="border-radius:50%;" alt="USERNAME2"/>
+  </a>
+</p>
+<p align="center">
+  <b>شكرًا لكل من ساهم في بناء هذا المشروع ❤️</b>
+</p>
