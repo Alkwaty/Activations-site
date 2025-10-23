@@ -63,8 +63,7 @@
   <p style="font-size: 16px; color: #555;">شكرًا لكل من ساهم في بناء هذا المشروع ❤️</p>
 
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin-top: 25px;">
-
-    <!-- 🧑‍💻 المساهم 1 -->
+  <!-- 🧑‍💻 المساهم 1 -->
     <div style="text-align: center;">
       <a href="https://github.com/USERNAME1" target="_blank" style="text-decoration: none; color: inherit;">
         <img src="https://github.com/USERNAME1.png" alt="USERNAME1" 
@@ -73,7 +72,6 @@
         <div style="font-size: 13px; color: #777;">Developer</div>
       </a>
     </div>
-
     <!-- 🧑‍🎨 المساهم 2 -->
     <div style="text-align: center;">
       <a href="https://github.com/USERNAME2" target="_blank" style="text-decoration: none; color: inherit;">
