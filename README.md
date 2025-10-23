@@ -56,12 +56,8 @@
 
 شكرًا لكل من ساهم في بناء هذا المشروع ❤️  
   
-<style>
-	table{
-		margin: 0 auto;
-	}
-</style>
-<table style="width: 100%; text-align: center;">
+
+<table style="margin: 0 auto; text-align: center;">
   <tr>
     <td style=" text-align: center" >
       <a href="https://github.com/saqcode-dev">
