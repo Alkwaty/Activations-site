@@ -67,10 +67,10 @@
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/ANOTHER-USER">
-        <img src="https://github.com/ANOTHER-USER.png" width="80px;" alt="Contributor"/>
+      <a href="https://github.com/alkwaty">
+        <img src="https://github.com/alkwaty.png" width="80px;" alt="Contributor"/>
         <br />
-        <sub><b>ANOTHER-USER</b></sub>
+        <sub><b>alkwaty</b></sub>
       </a>
     </td>
   </tr>
