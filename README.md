@@ -65,7 +65,6 @@
         <img src="https://avatars.githubusercontent.com/saqcode-dev?v=4" width="100" height="100" style="border-radius: 50%; display: block; margin: 0 auto;">
         <p><b>saqcode-dev</b></p>
       </a>
-    </div>
     <div style="text-align: center;">
       <a href="https://github.com/alkwaty">
         <img src="https://avatars.githubusercontent.com/alkwaty?v=4" width="100" height="100" style="border-radius: 50%; display: block; margin: 0 auto;">
